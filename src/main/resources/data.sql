@@ -1,0 +1,10 @@
+INSERT INTO `master_role` (`role_id`, `created_by`, `created_date`, `modified_by`, `modified_date`, `status`, `role_name`) VALUES (NULL, '1', '2024-04-08 15:10:10', NULL, NULL, '1', 'Super Admin');
+INSERT INTO `master_role` (`role_id`, `created_by`, `created_date`, `modified_by`, `modified_date`, `status`, `role_name`) VALUES (NULL, '1', '2024-04-08 15:10:10', NULL, NULL, '1', 'Admin');
+INSERT INTO `master_role` (`role_id`, `created_by`, `created_date`, `modified_by`, `modified_date`, `status`, `role_name`) VALUES (NULL, '1', '2024-04-08 15:10:10', NULL, NULL, '1', 'Agent');
+INSERT INTO `master_role` (`role_id`, `created_by`, `created_date`, `modified_by`, `modified_date`, `status`, `role_name`) VALUES (NULL, '1', '2024-04-08 15:10:10', NULL, NULL, '1', 'User');
+
+INSERT INTO `master_security_question` (`security_question_id`, `created_by`, `created_date`, `modified_by`, `modified_date`, `status`, `security_question_name`) VALUES (NULL, '1', '2024-04-08 15:10:10', NULL, NULL, '1', 'What is your favorite sport?');
+INSERT INTO `master_security_question` (`security_question_id`, `created_by`, `created_date`, `modified_by`, `modified_date`, `status`, `security_question_name`) VALUES (NULL, '1', '2024-04-08 15:10:10', NULL, NULL, '1', 'What month was your first child born?');
+INSERT INTO `master_security_question` (`security_question_id`, `created_by`, `created_date`, `modified_by`, `modified_date`, `status`, `security_question_name`) VALUES (NULL, '1', '2024-04-08 15:10:10', NULL, NULL, '1', 'What month did you get married?');
+
+INSERT INTO `master_user` (`user_id`, `created_by`, `created_date`, `modified_by`, `modified_date`, `status`, `date_of_birth`, `email`, `gender`, `marital_status`, `mobile`, `name`, `nationality`, `occupation`, `password`, `security_question_answer`, `role_id`, `security_question_id`) VALUES (NULL, '1', '2024-04-08 15:10:10', NULL, NULL, '1', '1988-02-15', 'avirup.pal@gmail.com', 'Male', 'Married', '7278403639', 'Avirup Pal', 'Indian', 'Service', 'fba7bb66022cc5f81b8ed1f90682eadf8de57f4e018dba556b49ef04890375f7', 'Cricket', '1', '1');
